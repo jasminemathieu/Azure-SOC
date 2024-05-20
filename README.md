@@ -69,7 +69,7 @@ Stop Time 2024-05-15 5:48:12
 | AzureNetworkAnalytics_CL | 0
 
 ## End Results
-Percentage of change in mettrics after application of security controls
+Impact of security controls
 
 | Metric                   | %
 | ------------------------ | -----
