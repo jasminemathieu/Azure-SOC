@@ -1,4 +1,4 @@
-# Live SOC/Honeynet Architecture in Azure + Security Hardening
+# Live SOC / Honeynet Architecture in Azure + Security Hardening
 ![Cloud Honeynet / SOC](https://imgur.com/t98Qqpx.jpg)
 
 ## Introduction
