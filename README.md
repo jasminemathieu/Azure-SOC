@@ -5,11 +5,11 @@
 
 In this project detailed below, I constructed a mini honeynet in Azure and ingested logs from various resources into Log Analytics workspace. I then analyzed the SOC / honeynet environment with live traffic. This was accomplished with the use of Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. Security metrics were measured in an insecure environment for a total of 24 hours. I subsequently implemented security controls to harden the environment, which metrics were measured for another 24. The metrics measured were:
 
-- SecurityEvent (Windows Event Logs)
-- Syslog (Linux Event Logs)
-- SecurityAlert (Log Analytics Alerts Triggered)
-- SecurityIncident (Incidents created by Sentinel)
-- AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
+- Windows Event Logs (SecurityEvent)
+- Linux Event Logs (Syslog)
+- Log Analytics Alerts Triggered (SecurityAlert)
+- Incidents created by Sentinel (SecurityIncident)
+- Malicious Flows allowed into our honeynet (AzureNetworkAnalytics_CL)
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://imgur.com/9wx4mAq.jpg)
